@@ -1,5 +1,5 @@
 <template>
-    <img src="../assets/images/Ja_mat_png.png" alt="logo">
+    <img src="../assets/images/SM logo.png" alt="logo">
 
     <ul>
         <li v-for="(item, index) in menuItems" :key="index">
@@ -23,6 +23,8 @@
 
 <style lang="scss" scoped>
 
-
+img{
+    width: 5vw;
+}
 
 </style>

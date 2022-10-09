@@ -2,16 +2,19 @@
 <template>
   <Header/>
   <AboutMe/>
+  <Education/>
 </template>
 
 <script>
 import Header from "./components/Header.vue"
 import AboutMe from './components/About Me.vue'
+import Education from './components/Education.vue'
 
   export default {
     components: {
       Header,
       AboutMe,
+      Education,
     },
   }
 </script>

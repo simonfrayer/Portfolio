@@ -49,7 +49,7 @@ import descriptionText from "../assets/data/descriptiontext.json";
     }
 
     img{
-        width: 40vw;
+        width: 40%;
         border-radius: 50%;
         box-shadow: 0px 0px 20px 2px #11201E;
         max-width: 100%;
@@ -62,7 +62,7 @@ import descriptionText from "../assets/data/descriptiontext.json";
         padding-right: 4vw;
         padding-bottom: 2vw;
         border-bottom: 2px solid #11201E;
-        font-size: 2.5rem;
+        font-size: 5vw;
         margin-top: 15vw;
         color: #11201E;
         
@@ -70,6 +70,9 @@ import descriptionText from "../assets/data/descriptiontext.json";
 
     .heading span{
         padding: 2vw;
+    }
+    .position{
+        font-size: 4vw;
     }
 
     .aboutme{
@@ -100,8 +103,8 @@ import descriptionText from "../assets/data/descriptiontext.json";
 
     //media -----------------------------------------------------------
 
-    @media screen and (max-width: 768px){
-        .heading{font-size: 1.5rem;}
-    }
+    //@media screen and (max-width: 768px){
+//        .heading{font-size: 1.5rem;}
+    //}
 
 </style>

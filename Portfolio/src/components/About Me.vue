@@ -6,10 +6,8 @@
             <span class="position">Full Stack Developer</span>
         </div>
 
-        <img src="@/assets/images/profile-pic.png" alt="Profile Picture">
+        <img src="../assets/images/profile-pic.png" alt="Profile Picture">
     </div>
-
-    <p>{{imgPath}}</p>
 </template>
 
 <script>

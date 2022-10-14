@@ -38,6 +38,13 @@ import descriptionText from "../assets/data/descriptiontext.json";
 
 <style lang="scss" scoped>
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
     .hero{
         display: flex;
         flex-direction: row;
@@ -49,9 +56,9 @@ import descriptionText from "../assets/data/descriptiontext.json";
     }
 
     img{
-        width: 40%;
+        width: 35%;
         border-radius: 50%;
-        box-shadow: 0px 0px 20px 2px #11201E;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.2);;
         max-width: 100%;
     }
 
@@ -97,7 +104,7 @@ import descriptionText from "../assets/data/descriptiontext.json";
         opacity: 100%;
         z-index:-1;
         border-radius: 5vw;
-        box-shadow: 0 0px 20px 0;
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
     }
 
 

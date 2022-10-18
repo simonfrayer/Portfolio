@@ -3,6 +3,7 @@
   <Header/>
   <AboutMe/>
   <KeySkills/>
+  <Projects />
   <Education/>
 </template>
 
@@ -11,6 +12,7 @@ import Header from './components/Header.vue'
 import AboutMe from './components/About Me.vue'
 import Education from './components/Education.vue'
 import KeySkills from './components/Key Skills.vue'
+import Projects from './components/Projects.vue'
 
   export default {
     components: {
@@ -18,6 +20,7 @@ import KeySkills from './components/Key Skills.vue'
       AboutMe,
       Education,
       KeySkills,
+      Projects,
     },
   }
 </script>

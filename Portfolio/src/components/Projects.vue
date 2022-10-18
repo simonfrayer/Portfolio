@@ -1,14 +1,19 @@
 <template>
+    <div class="heading">
+        <span>My Projects</span>
+    </div>
     <div class="body">
         <div class="card-wrapper">  
             <div class="card-top">  
              <img class="image" src="../assets/images/code1.jfif">  
             </div>  
             <div class="card-bottom">  
-             <span class="top-text">Premium Membership</span><br>  
-             <span class="bottom-text">Join our membership program to download music for free, listen offline and skip songs</span>  
+             <span class="top-text">Schedule Planner</span><br>  
+             <span class="bottom-text">Single user system programmed in Java which was a 1st semester project.</span>  
              <br>  
-             <button class="button">Join Us</button>  
+             <form action="https://github.com/EnBi81/Sep-Mango" method="get" target="_blank">
+                <button type="submit" class="button">GitHub</button>
+             </form>            
             </div>  
            </div> 
            <div class="card-wrapper">  
@@ -16,10 +21,13 @@
              <img class="image" src="../assets/images/code2.jpg">  
             </div>  
             <div class="card-bottom">  
-             <span class="top-text">Premium Membership</span><br>  
-             <span class="bottom-text">Join our membership program to download music for free, listen offline and skip songs</span>  
+             <span class="top-text">Ordering System</span><br>  
+             <span class="bottom-text">Client – Server system which was a 2nd semester project. The University's canteen server as a virtual customer.
+            </span>  
              <br>  
-             <button class="button">Join Us</button>  
+             <form action="https://github.com/EnBi81/SEP2-MangoProject" method="get" target="_blank">
+                <button type="submit" class="button">GitHub</button>
+             </form>    
             </div>  
            </div> 
            <div class="card-wrapper">  
@@ -27,10 +35,13 @@
              <img class="image" src="../assets/images/code3.jpg">  
             </div>  
             <div class="card-bottom">  
-             <span class="top-text">Premium Membership</span><br>  
-             <span class="bottom-text">Join our membership program to download music for free, listen offline and skip songs</span>  
+             <span class="top-text">Kašpersky 440 Webpage</span><br>  
+             <span class="bottom-text">Project done by me and my team BeCreative for our customer (house 
+                with apartments for rent).</span>  
              <br>  
-             <button class="button">Join Us</button>  
+             <form action="https://kasperky440.cz/" method="get" target="_blank">
+                <button type="submit" class="button">Webpage</button>
+             </form>     
             </div>  
            </div> 
     </div>
@@ -44,10 +55,21 @@
 
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');  
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 5px 5px black;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 .body {  
      position: relative;  
-     width: 100%;  
-     height: 100vh;  
+     width: 100%;   
      display: flex;  
      justify-content: space-evenly;  
      align-items: center;  
@@ -55,7 +77,7 @@
 }  
 .image {  
      width: 100%;  
-     height: 100%;  
+     height: auto;  
      border-radius: 20px;  
      transition: all 0.3s ease-in-out;  
      z-index: 20;  
@@ -63,12 +85,13 @@
 }  
 .card-wrapper {  
      position: relative;  
-     width: 30%;  
+     width: 40vw;  
      height: auto;  
      border-radius: 20px;  
      overflow: hidden;  
      transition: all 0.3s ease-in-out;  
-     box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.49);  
+     box-shadow: 10px 10px 53px 0px rgba(0, 0, 0, 0.49); 
+     margin-top: 7%;
 }  
 .card-wrapper:hover .image {  
      filter: blur(1.4px);  
@@ -120,4 +143,15 @@
      color: #fff;  
      padding: 5px 20px;  
 }  
+
+@media only screen and (max-width: 767px){
+    .body{
+        flex-direction: row;
+    }
+    .card-wrapper{
+        width: 50vw;
+        margin-top: 15px;
+    }
+    
+}
 </style>

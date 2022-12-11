@@ -108,6 +108,10 @@
      transform: translate(0%, -50%);  
      transition: all 0.8s ease;  
      background-color: rgba(110, 122, 92, 0.7);  
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     font-size: 1rem;
 }  
 .card-top {  
      position: relative;  
@@ -117,12 +121,13 @@
 }  
 .card-bottom {  
      width: 100%; 
+     height: 100%;
      position: absolute;  
      z-index: 20;  
-     display: nonee;  
+     display: none;  
      top: 50%;  
      background-color: rgba(110, 122, 92, 0);  
-     padding: 100px 20px;  
+     align-items: center;
      color: #fff;  
      transform: translate(100%, -50%);  
 }  
@@ -150,10 +155,10 @@
 
 @media only screen and (max-width: 767px){
     .body{
-        flex-direction: row;
+        flex-direction: column;
     }
     .card-wrapper{
-        width: 50vw;
+        width: 60vw;
         margin-top: 15px;
     }
     

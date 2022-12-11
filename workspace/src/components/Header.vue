@@ -3,7 +3,7 @@
         <img src="../assets/images/SM logo.png" id="logo" alt="logo">
 
         <ul>
-            <li v-for="(item, index) in menuItems" :key="index">
+            <li v-for="(item, index) in menuItems" :key="index" class=" hover:bg-[#D5E9DD] hover:cursor-pointer hover:bg-opacity-80 hover:shadow-sm hover:border-l-4 transition-all">
                 <router-link :to="{hash: '#' + item }">{{ item }}</router-link>  
             </li>
         </ul>
@@ -53,10 +53,9 @@
 
 li{
     padding: 1.5vw;
-    margin-right: 5vw;
+    padding-right: 5vw;
     list-style-position: inside;
     border-left: 2px solid #11201E;
     white-space: nowrap;
 }
-
 </style>

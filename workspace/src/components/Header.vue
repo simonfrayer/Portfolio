@@ -1,10 +1,10 @@
 <template>
-    <div class="navbar">
+    <div id="" class="navbar">
         <img src="../assets/images/SM logo.png" id="logo" alt="logo">
 
         <ul>
             <li v-for="(item, index) in menuItems" :key="index">
-                <router-link :to="{name: '/' + item}">{{ item }}</router-link>  
+                <router-link :to="{path: '/' + item, hash: '#' + item }">{{ item }}</router-link>  
             </li>
         </ul>
     </div>
@@ -14,7 +14,7 @@
     export default {
         data() {
         return {
-            menuItems: ["About Me", "Education", "Projects", "Contact"],
+            menuItems: ["About", "Education", "Projects", "Contact"],
         }
     },
 

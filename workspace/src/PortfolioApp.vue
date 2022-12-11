@@ -5,6 +5,7 @@
   <KeySkills/>
   <Projects />
   <Education/>
+  <Contact/>
 </template>
 
 <script>
@@ -13,7 +14,7 @@ import About from './components/About.vue'
 import Education from './components/Education.vue'
 import KeySkills from './components/Key Skills.vue'
 import Projects from './components/Projects.vue'
-import ChatBot_GPT from './components/ChatBot_GPT.vue'
+import Contact from './components/Contact.vue'
 
   export default {
     components: {
@@ -22,7 +23,7 @@ import ChatBot_GPT from './components/ChatBot_GPT.vue'
       Education,
       KeySkills,
       Projects,
-      ChatBot_GPT,
+      Contact,
     },
   }
 </script>

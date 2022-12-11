@@ -1,5 +1,5 @@
 <template>
-    <div class="hero">
+    <div id="About" class="hero">
 
         <div class="heading">
             <span class="name"><b>Simon Mayer</b></span>

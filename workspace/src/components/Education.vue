@@ -1,5 +1,5 @@
 <template>
-    <div class="downIcon">
+    <div id="Education" class="downIcon">
         <font-awesome-icon icon="fa-solid fa-angles-down"  beat class="icon" />
     </div>
 

@@ -9,7 +9,9 @@
             </div>  
             <div class="card-bottom">  
              <span class="top-text">Schedule Planner</span><br>  
-             <span class="bottom-text">Single user system programmed in Java which was a 1st semester project.</span>  
+             <span class="bottom-text">Single user system programmed in Java <br>
+               <i>VIA University College</i>
+             </span>  
              <br>  
              <form action="https://github.com/EnBi81/Sep-Mango" method="get" target="_blank">
                 <button type="submit" class="button">GitHub</button>
@@ -22,7 +24,8 @@
             </div>  
             <div class="card-bottom">  
              <span class="top-text">Ordering System</span><br>  
-             <span class="bottom-text">Client – Server system which was a 2nd semester project. The University's canteen server as a virtual customer.
+             <span class="bottom-text">Client – Server system programmed in Java with SQL database<br>
+               <i>VIA University College</i>
             </span>  
              <br>  
              <form action="https://github.com/EnBi81/SEP2-MangoProject" method="get" target="_blank">
@@ -36,8 +39,9 @@
             </div>  
             <div class="card-bottom">  
              <span class="top-text">Kašpersky 440 Webpage</span><br>  
-             <span class="bottom-text">Project done by me and my team BeCreative for our customer (house 
-                with apartments for rent).</span>  
+             <span class="bottom-text">Single Web Application (VueJS, TailwindCSS) for external client <br>
+               <i>Personal Project with BeCreative</i>
+          </span>  
              <br>  
              <form action="https://kasperky440.cz/" method="get" target="_blank">
                 <button type="submit" class="button">Webpage</button>

@@ -1,27 +1,33 @@
 <template>
             <h1 id="Key Skills">My Key Skills</h1>
     <div class="skill-bars">
+      <div class="bar">
+        <div class="info"> <span>Web Development</span> </div>
+        <div class="progress-line web"> <span></span> </div>
+      </div>
+      <div class="bar">
+        <div class="info"> <span>JavaScript</span> </div>
+        <div class="progress-line JavaScript"> <span></span> </div>
+      </div>
+      <div class="bar">
+        <div class="info"> <span>Java</span> </div>
+        <div class="progress-line java"> <span></span> </div>
+      </div>
         <div class="bar">
-            <div class="info"> <span>Tailwind CSS</span> </div>
+            <div class="info"> <span>TailwindCSS</span> </div>
             <div class="progress-line css"> <span></span> </div>
           </div>
-          <div class="bar">
-            <div class="info"> <span>Java Script</span> </div>
-            <div class="progress-line JavaScript"> <span></span> </div>
-          </div>
-          <div class="bar">
-            <div class="info"> <span>Vue.js</span> </div>
+                    <div class="bar">
+            <div class="info"> <span>VueJS</span> </div>
             <div class="progress-line vue"> <span></span> </div>
           </div>
           <div class="bar">
             <div class="info"> <span>C#</span> </div>
             <div class="progress-line c"> <span></span> </div>
-          </div>
-          <div class="bar">
-            <div class="info"> <span>Java</span> </div>
-            <div class="progress-line java"> <span></span> </div>
-          </div>
+          </div>       
+    
     </div>
+
 </template>
 
 <script>
@@ -50,7 +56,7 @@ h1{
 .skill-bars{
   padding: 30px 30px;
   width: 900px; 
-  height: 400px;
+  height: auto;
   background: #fff;
   box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
   border-radius: 10px;
@@ -119,40 +125,46 @@ h1{
     transform: scaleX(1);
   }
 }
-.java span{
+.web span{
   width: 95%;
+}
+.java span{
+  width: 60%;
 }
 .css span{
-  width: 80%;
+  width: 30%;
 }
 .JavaScript span{
-  width: 95%;
+  width: 90%;
 }
 .vue span{
-  width: 85%;
+  width: 30%;
 }
 .c span{
-    width: 80%;
+    width: 30%;
   }
 @keyframes showText2 {
   100%{
     opacity: 1;
   }
 }
+.web span::after{
+  content: "5+ years";
+}
 .java span::after{
-  content: "95%";
+  content: "2+ years";
 }
 .css span::after{
-  content: "80%";
+  content: "1+ years";
 }
 .JavaScript span::after{
-  content: "95%";
+  content: "4+ years";
 }
 .vue span::after{
-  content: "85%";
+  content: "1+ years";
 }
 .c span::after{
-    content: "80%";
+    content: "1+ years";
   }
 
 /* Media Query */

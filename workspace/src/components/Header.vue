@@ -4,7 +4,7 @@
 
         <ul>
             <li v-for="(item, index) in menuItems" :key="index" class=" hover:bg-[#D5E9DD] hover:cursor-pointer hover:bg-opacity-80 hover:shadow-sm hover:border-l-4 transition-all">
-                <router-link :to="{hash: '#' + item }">{{ item }}</router-link>  
+                <router-link id="link" :to="{hash: '#' + item }">{{ item }}</router-link>  
             </li>
         </ul>
     </div>
@@ -14,7 +14,7 @@
     export default {
         data() {
         return {
-            menuItems: ["About", "Education", "Projects", "Contact"],
+            menuItems: ["About", "Key Skills", "Projects", "Education", "Contact"],
         }
     },
 
@@ -47,7 +47,6 @@
 .navbar ul{
     list-style-type: none;
     padding: 0;
-    margin-left: 10%;
     display: flex;
 }
 
@@ -58,4 +57,5 @@ li{
     border-left: 2px solid #11201E;
     white-space: nowrap;
 }
+
 </style>

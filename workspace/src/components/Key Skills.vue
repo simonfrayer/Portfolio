@@ -1,5 +1,5 @@
 <template>
-            <h1>My Key Skills</h1>
+            <h1 id="Key Skills">My Key Skills</h1>
     <div class="skill-bars">
         <div class="bar">
             <div class="info"> <span>Tailwind CSS</span> </div>

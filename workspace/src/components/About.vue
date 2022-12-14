@@ -15,6 +15,15 @@
         </p>
         <div class="textBackground"></div>
     </div>
+
+    
+        <div id="Education" class="downIcon">
+            <router-link id="link" to="#Key Skills">
+        <font-awesome-icon icon="fa-solid fa-angles-down"  beat class="icon select-none" />
+    </router-link>
+    </div>
+    
+    
 </template>
 
 <script>
@@ -106,6 +115,15 @@ import descriptionText from "../assets/data/descriptiontext.json";
         border-radius: 5vw;
         box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
     }
+
+    .downIcon{
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding: 2vw;
+        font-size: 7vw;
+    } 
 
 
     //media -----------------------------------------------------------

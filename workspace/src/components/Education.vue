@@ -101,7 +101,7 @@
     background-color: #11201E;
     font-size: 1.5rem;
     color: #DECEC8 ;
-    border-radius: 5vw;
+    border-radius: 1vw;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
 }
 .education__content__box__year{

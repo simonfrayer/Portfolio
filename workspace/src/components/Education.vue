@@ -89,6 +89,8 @@
     padding-bottom: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 .education__content__box__text{
     display: flex;

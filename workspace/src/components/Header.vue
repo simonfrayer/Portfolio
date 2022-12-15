@@ -1,6 +1,6 @@
 <template>
     <div id="" class="navbar">
-        <img src="../assets/images/SM logo.png" id="logo" alt="logo">
+        <img src="@/assets/images/SM-logo.png" id="logo" alt="logo">
 
         <ul>
             <li v-for="(item, index) in menuItems" :key="index" class=" hover:bg-[#D5E9DD] hover:cursor-pointer hover:bg-opacity-80 hover:shadow-sm hover:border-l-4 transition-all">

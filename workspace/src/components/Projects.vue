@@ -24,7 +24,7 @@
             </div>  
             <div class="card-bottom">  
              <span class="top-text">Ordering System</span><br>  
-             <span class="bottom-text">Client – Server system programmed in Java with SQL database<br>
+             <span class="bottom-text">Client - Server system programmed in Java with SQL database<br>
                <i>VIA University College</i>
             </span>  
              <br>  

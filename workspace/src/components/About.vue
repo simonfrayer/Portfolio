@@ -17,7 +17,7 @@
     </div>
 
     
-        <div id="Education" class="downIcon">
+        <div class="downIcon">
             <router-link id="link" to="#Key Skills">
         <font-awesome-icon icon="fa-solid fa-angles-down"  beat class="icon select-none" />
     </router-link>

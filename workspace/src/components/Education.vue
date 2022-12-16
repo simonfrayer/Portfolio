@@ -1,6 +1,6 @@
 <template>
     
-    <div class="education flex flex-col">
+    <div id="Education" class="education flex flex-col">
         <div class="flex flex-col">
             <div class="row">
                 <div class="col-12 flex justify-center">
@@ -20,7 +20,7 @@
                             </div>
                             <div class="education__content__box__text">
                                 <h3>Bachelor of Software Engineering</h3>
-                                <p>University of California, Los Angeles</p>
+                                <p class="text-sm"><i>VIA University College, Denmark</i></p>
                             </div>
                         </div>
                         <div class="education__content__box flex flex-row-reverse">
@@ -33,7 +33,7 @@
                             </div>
                             <div class="education__content__box__text">
                                 <h3>Exchange Student</h3>
-                                <p>Gymnasium Oberaargau</p>
+                                <p class="text-sm"><i>Gymnasium Oberaargau, Switzerland</i></p>
                             </div>
                         </div>
                         <div class="education__content__box flex flex-row">
@@ -46,7 +46,7 @@
                             </div>
                             <div class="education__content__box__text">
                                 <h3>High School Diploma</h3>
-                                <p>Gymnázium Joachyma Barranda</p>
+                                <p class="text-sm"><i>Gymnázium Joachyma Barranda, Czech Republic</i></p>
                             </div>
                         </div>
                     </div>

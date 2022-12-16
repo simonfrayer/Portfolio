@@ -16,6 +16,7 @@ import KeySkills from './components/Key Skills.vue'
 import Projects from './components/Projects.vue'
 import Contact from './components/Contact.vue'
 
+
   export default {
     components: {
       Header,
@@ -26,6 +27,8 @@ import Contact from './components/Contact.vue'
       Contact,
     },
   }
+  
+  
 </script>
 
 <style scoped>

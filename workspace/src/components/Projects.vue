@@ -3,6 +3,7 @@
         <span>My Projects</span>
     </div>
     <div class="body">
+
         <div class="card-wrapper">  
             <div class="card-top">  
              <img class="image" src="../assets/images/code1.jfif">  
@@ -10,14 +11,15 @@
             <div class="card-bottom">  
              <span class="top-text">Schedule Planner</span><br>  
              <span class="bottom-text">Single user system programmed in Java <br>
-               <i>VIA University College</i>
+               <i class="projectType">VIA University College</i>
              </span>  
              <br>  
-             <form action="https://github.com/EnBi81/Sep-Mango" method="get" target="_blank">
+             <form action="https://github.com/EnBi81/Sep-Mango" method="get" target="_blank" class="formButton">
                 <button type="submit" class="button">GitHub</button>
              </form>            
             </div>  
            </div> 
+
            <div class="card-wrapper">  
             <div class="card-top">  
              <img class="image" src="../assets/images/code2.jpg">  
@@ -25,29 +27,62 @@
             <div class="card-bottom">  
              <span class="top-text">Ordering System</span><br>  
              <span class="bottom-text">Client - Server system programmed in Java with SQL database<br>
-               <i>VIA University College</i>
+               <i class="projectType">VIA University College</i>
             </span>  
              <br>  
-             <form action="https://github.com/EnBi81/SEP2-MangoProject" method="get" target="_blank">
+             <form action="https://github.com/EnBi81/SEP2-MangoProject" method="get" target="_blank" class="formButton">
                 <button type="submit" class="button">GitHub</button>
              </form>    
             </div>  
            </div> 
+
+           <div class="card-wrapper">  
+               <div class="card-top">  
+                <img class="image" src="../assets/images/Online Marketplace.webp">  
+               </div>  
+               <div class="card-bottom">  
+                <span class="top-text">Online Marketplace</span><br>  
+                <span class="bottom-text">Distributed System with 3-Tier architecture (Blazor | .NET | C# | Java | Hibernate | SQL)<br>
+                  <i class="projectType">VIA University College</i>
+               </span>  
+                <br>  
+                <form action="https://github.com/Beatricia/MANGO-SEP3" method="get" target="_blank" class="formButton">
+                   <button type="submit" class="button">GitHub</button>
+                </form>    
+               </div>  
+              </div> 
+
            <div class="card-wrapper">  
             <div class="card-top">  
              <img class="image" src="../assets/images/code3.jpg">  
             </div>  
             <div class="card-bottom">  
-             <span class="top-text">Kašpersky 440 Webpage</span><br>  
+             <span class="top-text">Kašperky 440</span><br>  
              <span class="bottom-text">Single Web Application (VueJS, TailwindCSS) for external client <br>
-               <i>Personal Project with BeCreative</i>
+               <i class="projectType">Personal Project with BeCreative</i>
           </span>  
              <br>  
-             <form action="https://kasperky440.cz/" method="get" target="_blank">
+             <form action="https://kasperky440.cz/" method="get" target="_blank" class="formButton">
                 <button type="submit" class="button">Webpage</button>
              </form>     
             </div>  
            </div> 
+
+           <div class="card-wrapper">  
+               <div class="card-top">  
+                <img class="image" src="../assets/images/gut-wetr.png">  
+               </div>  
+               <div class="card-bottom">  
+                <span class="top-text">Gut Wetr</span><br>  
+                <span class="bottom-text">Single Web Application (VueJS, TailwindCSS)<br>
+                  <i class="projectType">Personal Project</i>
+             </span>  
+                <br>  
+                <form action="https://gutwetr.netlify.app/" method="get" target="_blank" class="formButton">
+                   <button type="submit" class="button">Webpage</button>
+                </form>     
+               </div>  
+              </div> 
     </div>
 </template>
 
@@ -71,17 +106,18 @@
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.body {  
-     position: relative;  
-     width: 100%;   
+.body {    
+     width: 100%;
+     max-width: 100%;   
      display: flex;  
-     justify-content: space-evenly;  
+     justify-content: space-around;  
      align-items: center;  
      flex-wrap: wrap;
 }  
 .image {  
-     width: 100%;  
-     height: auto;  
+     width: 300px;  
+     height: 200px;  
+     object-fit: cover;
      border-radius: 20px;  
      transition: all 0.3s ease-in-out;  
      z-index: 20;  
@@ -89,8 +125,11 @@
 }  
 .card-wrapper {  
      position: relative;  
-     width: 40vw;  
-     height: auto;  
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 300px;  
+     height: 200px;  
      border-radius: 20px;  
      overflow: hidden;  
      transition: all 0.3s ease-in-out;  
@@ -108,15 +147,16 @@
      transform: translate(0%, -50%);  
      transition: all 0.8s ease;  
      background-color: rgba(110, 122, 92, 0.7);  
+     padding: 10px;
      display: flex;
      flex-direction: column;
      justify-content: center;
-     font-size: 1rem;
+     align-items: center;
+     text-align: center;
+     font-size: 0.6rem;
 }  
-.card-top {  
-     position: relative;  
-     width: 100%;  
-     height: 100%;  
+.card-top {   
+     width: 100%; 
      z-index: 1;  
 }  
 .card-bottom {  
@@ -145,13 +185,20 @@
      display: block;  
      outline: none;  
      cursor: pointer;  
-     margin-top: 25px;  
      border: none;  
      border-radius: 3px;  
      background-color: #f8961e;  
      color: #fff;  
      padding: 5px 20px;  
 }  
+.formButton{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.projectType{
+     font-size: 0.6rem;
+}
 
 @media only screen and (max-width: 767px){
     .body{

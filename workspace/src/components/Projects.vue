@@ -38,7 +38,7 @@
 
            <div class="card-wrapper">  
                <div class="card-top">  
-                <img class="image" src="../assets/images/Online Marketplace.webp">  
+                <img class="image" src="../assets/images/OnlineMarketplace.jpg">  
                </div>  
                <div class="card-bottom">  
                 <span class="top-text">Online Marketplace</span><br>  

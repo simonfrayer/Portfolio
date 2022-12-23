@@ -1,7 +1,7 @@
 <template>
     <div id="About" class="hero">
 
-        <div class="flex flex-col">
+        <div class="flex flex-col lg:p-4">
             <div class="heading">
                 <span class="name lg:flex lg:justify-center"><b>Simon Mayer</b></span>
                 <span class="position lg:flex lg:justify-center">Full Stack Developer</span>
@@ -82,6 +82,7 @@ import descriptionText from "../assets/data/descriptiontext.json";
     .heading{
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-left: 4vw;
         padding-right: 4vw;
         padding-bottom: 2vw;
@@ -131,16 +132,32 @@ import descriptionText from "../assets/data/descriptiontext.json";
     //}
 
     @media screen and (min-width: 1024px){
+        .hero{
+            padding-top: 50px;
+        }
         .heading{
             margin-top:0;
             font-size: 2rem;
             border-bottom: 0px;
+            padding-bottom: 0;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .heading span{
+            padding: 0;
+            padding-top: 1vw;
         }
         .position{
             font-size: 1.8rem;
+            padding-bottom: 2vw;
+        border-bottom: 2px solid #11201E;
         }
         .descriptionText{
-            font-size: 0.8rem;
+            font-size: 1rem;
+            padding: 50px;
+        }
+        .downIcon{
+            padding: 0;
         }
     }
 

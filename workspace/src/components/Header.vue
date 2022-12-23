@@ -55,7 +55,6 @@
 .navbar ul{
     list-style-type: none;
     padding: 0;
-    display: flex;
     height: 60px;
     max-height: 60px;
     

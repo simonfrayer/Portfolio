@@ -2,7 +2,11 @@
     <div id="" class="navbar">
         <img src="@/assets/images/SM-logo.png" id="logo" alt="logo">
 
-        <ul>
+
+        <div class="toggleMenu">
+
+        </div>
+        <ul class="hidden lg:flex">
             <li v-for="(item, index) in menuItems" :key="index" class=" hover:bg-[#D5E9DD] hover:cursor-pointer hover:bg-opacity-80 hover:shadow-sm hover:border-l-4 transition-all">
                 <router-link id="link" :to="{hash: '#' + item }">{{ item }}</router-link>  
             </li>
@@ -36,26 +40,36 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 2vw;
+    font-size: 1.7rem;
+    height: 100px;
+    max-height: 100px;
 }
 
 .navbar #logo{
-    width: 15vw;
-    margin-left: 2vw;
+    height: 100px;
+    max-height: 100px;
+    height: auto;
+    padding-left: 40px;
 }
 
 .navbar ul{
     list-style-type: none;
     padding: 0;
     display: flex;
+    height: 60px;
+    max-height: 60px;
+    
 }
 
 li{
-    padding: 1.5vw;
-    padding-right: 5vw;
+    padding: 15px;
+    padding-right: 60px;
     list-style-position: inside;
     border-left: 2px solid #11201E;
     white-space: nowrap;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 </style>

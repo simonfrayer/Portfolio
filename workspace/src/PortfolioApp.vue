@@ -34,5 +34,4 @@ import Contact from './components/Contact.vue'
 <style scoped>
 
 
-
 </style>

@@ -10,9 +10,9 @@
             <div class="row">
                 <div class="col-12">
                     <div class="education__content flex flex-col">
-                        <div class="education__content__box flex flex-row ">
+                        <div class="education__content__box flex flex-col lg:flex-row ">
                             <div class="education__content__box__year">
-                                <font-awesome-icon icon="fa-solid fa-circle-dot" class="p-4 fa-beat" style="--fa-animation-duration: 2s; font-size: 1rem;" />
+                                <font-awesome-icon icon="fa-solid fa-circle-dot" class="p-4 fa-beat hidden lg:block" style="--fa-animation-duration: 2s; font-size: 1rem;" />
                                 <span>2021 - 2025</span>
                             </div>
                             <div class="icon">
@@ -23,9 +23,9 @@
                                 <p class="text-sm"><i>VIA University College, Denmark</i></p>
                             </div>
                         </div>
-                        <div class="education__content__box flex flex-row-reverse">
+                        <div class="education__content__box flex flex-col lg:flex-row-reverse">
                             <div class="education__content__box__year">
-                                <font-awesome-icon icon="fa-solid fa-circle-dot" class="p-4 fa-beat" style="--fa-animation-duration: 2s; font-size: 1rem;" />
+                                <font-awesome-icon icon="fa-solid fa-circle-dot" class="p-4 fa-beat hidden lg:block" style="--fa-animation-duration: 2s; font-size: 1rem;" />
                                 <span>2019 - 2020</span>
                             </div>
                             <div class="icon">
@@ -36,9 +36,9 @@
                                 <p class="text-sm"><i>Gymnasium Oberaargau, Switzerland</i></p>
                             </div>
                         </div>
-                        <div class="education__content__box flex flex-row">
+                        <div class="education__content__box flex flex-col lg:flex-row">
                             <div class="education__content__box__year">
-                                <font-awesome-icon icon="fa-solid fa-circle-dot" class="p-4 fa-beat" style="--fa-animation-duration: 2s; font-size: 1rem;" />
+                                <font-awesome-icon icon="fa-solid fa-circle-dot" class="p-4 fa-beat hidden lg:block" style="--fa-animation-duration: 2s; font-size: 1rem;" />
                                 <span>2017 - 2021</span>
                             </div>
                             <div class="icon">
@@ -121,5 +121,9 @@
     font-size: 5rem;
     color: #11201E;
     position: relative;
+}
+
+@media screen and (max-width: 767px){
+
 }
 </style>

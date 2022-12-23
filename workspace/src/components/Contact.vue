@@ -1,9 +1,9 @@
 <template>
-    <div id="Contact" class="contact_container flex flex-row justify-around">
+    <div id="Contact" class="contact_container flex flex-col lg:flex-row justify-around">
 
 
-        <div class="contact__content flex flex-col">
-            <div class="contact__content__box flex flex-row">
+        <div class="contact__content flex flex-col mb-10 lg:mb-0">
+            <div class="contact__content__box flex flex-row justify-center lg:justify-start">
                 <div class="contact__content__box__icon">
                     <font-awesome-icon icon="fa-solid fa-envelope" />
                 </div>
@@ -11,7 +11,7 @@
                     <h3>Simon.Mayer@seznam.cz</h3>
                 </div>
             </div>
-            <div class="contact__content__box flex flex-row">
+            <div class="contact__content__box flex flex-row justify-center lg:justify-start">
                 <div class="contact__content__box__icon">
                     <font-awesome-icon icon="fa-solid fa-phone" />
                 </div>
@@ -21,7 +21,7 @@
             </div>  
         </div>
 
-        <div class="top flex flex-col">
+        <div class="top flex flex-col mb-10 lg:mb-0">
             <font-awesome-icon icon="fa-solid fa-copyright" class="text-xl pb-4" />
             <p class="text-sm">
                 Designed and Implemented by Simon Mayer

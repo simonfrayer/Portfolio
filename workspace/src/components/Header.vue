@@ -9,7 +9,7 @@
             </li>
         </ul>
 
-         <div class="toggleMenu">
+         <div class="toggleMenu lg:hidden">
             <font-awesome-icon icon="fa-solid fa-bars " @click="showMenuOnClickAndHideOnSecondClick"  class="p-10 cursor-pointer lg:hidden" size="lg"/>
             <font-awesome-icon icon="fa-solid fa-xmark" class="hidden p-10 cursor-pointer" />
         </div>

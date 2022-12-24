@@ -3,14 +3,22 @@
         <img src="@/assets/images/SM-logo.png" id="logo" alt="logo">
 
 
-        <div class="toggleMenu">
-
-        </div>
-        <ul class="hidden lg:flex">
+        <ul class="hidden lg:flex z-10">
             <li v-for="(item, index) in menuItems" :key="index" class=" hover:bg-[#D5E9DD] hover:cursor-pointer hover:bg-opacity-80 hover:shadow-sm hover:border-l-4 transition-all">
                 <router-link id="link" :to="{hash: '#' + item }">{{ item }}</router-link>  
             </li>
         </ul>
+
+         <div class="toggleMenu">
+            <font-awesome-icon icon="fa-solid fa-bars " @click="showMenuOnClickAndHideOnSecondClick"  class="p-10 cursor-pointer lg:hidden" size="lg"/>
+            <font-awesome-icon icon="fa-solid fa-xmark" class="hidden p-10 cursor-pointer" />
+        </div>
+
+        <ul id="menu" class="hidden lg:hidden absolute top-24 w-[100%] z-10 transition-all">
+            <li v-for="(item, index) in menuItems" :key="index" class=" hover:bg-[#D5E9DD] hover:cursor-pointer hover:bg-opacity-80 hover:shadow-sm hover:border-l-4 transition-all  bg-[#11201E]/95 text-white hover:text-[#11201E]">
+                <router-link id="link" :to="{hash: '#' + item }">{{ item }}</router-link>  
+            </li>
+            </ul>
     </div>
 </template>
 
@@ -22,9 +30,18 @@
         }
     },
 
-}
+    methods: {
+       showMenuOnClickAndHideOnSecondClick(){
+            let menu = document.getElementById("menu");
+              if(menu.classList.contains("hidden")){
+                menu.classList.remove("hidden");
+              }else{
+                menu.classList.add("hidden");
+              }
+       }
+    },
 
-    
+} 
 </script>
 
 <style scoped>
@@ -71,4 +88,13 @@ li{
     align-items: center;
 }
 
+#menu{
+    border-bottom: 2px solid #11201E;
+    border-top: 2px solid #11201E;
+}
+#menu li{
+    display: flex;
+    justify-content: center;
+    border-left: 0;
+}
 </style>

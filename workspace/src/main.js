@@ -12,7 +12,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faAnglesDown, faCircleChevronUp, faCircleDot, faCopyright, faEarthEurope, faEnvelope, faGraduationCap, faPhone, faSchool } from '@fortawesome/free-solid-svg-icons'
+import { faAnglesDown, faBars, faCircleChevronUp, faCircleDot, faCopyright, faEarthEurope, faEnvelope, faGraduationCap, faPhone, faSchool, faXmark } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
 library.add(faAnglesDown)
@@ -24,6 +24,8 @@ library.add(faEnvelope)
 library.add(faPhone)
 library.add(faCircleChevronUp)
 library.add(faCopyright)
+library.add(faXmark)
+library.add(faBars)
 
 import './assets/css/basicSetup.css'
 

@@ -1,7 +1,7 @@
 # My Portfolio
 Portfolio of Simon Mayer - a software engineer currently studying at VIA University College in Denmark.
 
-View the webpage by clicking the following link: [My Portfolio](https://simon-frayer.com/)
+View the webpage by clicking the following link: [My Portfolio]([https://simon-frayer.com/](https://simonfrayer.github.io/Portfolio/))
 
 To create this website Vue.js was used.
 
